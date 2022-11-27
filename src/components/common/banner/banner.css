@@ -1,0 +1,240 @@
+.banner-content {
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    width: 100%;
+    height: 250px;
+    background-image: url(../../../../public/img/banner/b2.jpg);
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:360px) { 
+    .banner-content {
+        padding-top: 20px;
+    }
+
+    
+}
+.banner-content h2{
+    color: white;
+    margin: 10px 0px;
+}
+
+.banner-content span {
+    background-color: rgba(27, 114, 245, 0.986);
+    padding: 5px;
+    
+}
+.banner-content button {
+    width: 130px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    color: navy;
+    cursor: pointer;
+    font-weight: 600;
+}
+.banner-content button:hover {
+    background-color: transparent;
+    color: white;
+    transition: all 0.4s;
+}
+
+
+/* Offers */
+
+.offers-content {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 30px;
+}
+
+.same{
+   
+    height: 350px;
+    padding-top: 13%;
+    padding-left:5% ;
+     color: white; 
+   
+
+}
+
+.left {
+    background-image: url(../../../../public/img/banner/b17.jpg);
+    background-size: cover;
+
+}
+.right {
+    background-image: url(../../../../public/img/banner/b10.jpg);
+    background-size: cover;
+
+}
+
+
+
+.same p {
+    margin: 0px 0px 10px 0px ;
+    color: whitesmoke;
+    font-size: 1.1em;
+    
+}
+
+.same h2 {
+    font-size: 2.5em;
+    color: white;
+    
+}
+.same span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+
+
+
+}
+.offer-btn {
+    width: 120px;
+    height: 40px;
+    border-radius:0 ;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: all 0.4s;
+    font-weight: 600;
+    font-size: 1em;
+
+}
+@media screen and (max-width:768px) {
+    .same {
+        background-size: cover;
+        background-position: 70%;
+        padding-top: 20%;
+    }
+    
+    .same p {
+    font-size: 1em;
+    
+}
+
+.same h2 {
+    font-size: 1.5em;
+    
+    
+}
+.same span {
+   
+    font-size: 2vw;
+
+
+}
+}
+@media screen and (max-width:550px) {
+    .same {
+        background-size: cover;
+        background-position: 70%;
+        padding-top: 10%;
+        height: 100%;
+    }
+    .same p {
+        font-size: 0.7em;
+        padding: 0;
+        margin: 0;
+
+        
+    }
+    
+    .same h2 {
+        font-size: 1.1em;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    .same span {
+       
+        font-size: 2vw;
+    
+    
+    }
+    .offer-btn {
+        width: 80px;
+        height: 20px;
+        font-size: 0.6em;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+.offer-btn:hover {
+background-color: var(--subcolor);
+cursor: pointer;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 20px;
+    height: 232px;
+    width: 100%;
+ 
+}
+.coll-left {
+    background-image: url(../../../../public/img/banner/b7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+}
+.coll-mid {
+    background-image: url(../../../../public/img/banner/b4.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+       
+}
+
+.coll-right {
+    background-image: url(../../../../public/img/banner/b18.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 100%;
+}
+.collection h2 {
+    color: white;
+    padding-top: 17%;
+    padding-left: 5%;
+    font-size: 2rem;
+}
+.collection h3 {
+    color: rgb(231, 90, 90);
+    padding-left: 5%;
+}
+
+@media screen and (max-width:768px) {
+    .collection {
+        height: auto;
+       display: block;
+    }
+    .coll-left {
+        padding: 10% 0px;
+    }
+    .coll-left h2{
+        padding: 0;
+    }
+    .coll-mid {
+        padding: 12% 0px;
+        margin: 20px 0px;
+    }
+    .coll-mid h2{
+        padding: 0;
+    }
+    .coll-right {
+        padding: 10% 0px;
+        
+    }
+    .coll-right h2{
+        padding: 0;
+    }
+}
+
+ /* Offers */
